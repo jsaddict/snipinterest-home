@@ -1,8 +1,9 @@
 var config = {
 	url : 'http://snipinterest.com',
 	title : 'SnipInterest - watch interested parts of video',
-	text : 'post text',
-	image : '../img/share.jpg',
+	text : 'Watch interested parts of video and decide whether to watch a video or not',
+	// image : '../img/share.jpg',
+	image : 'http://snipinterest.com/img/share.jpg',
 	videoId : ['id1', 'id2', 'id3', 'id4'],
 	videoInterval : {
 		'id1' : [2, 3],
