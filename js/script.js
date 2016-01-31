@@ -113,7 +113,8 @@ var home = (function(){
 	function share(app){
 		var link = null;
 		if(app == 'Facebook'){
-			link = 'https://www.facebook.com/sharer.php?s=100&p[title]='+title+'&p[summary]='+text+'&p[url]='+url+'&p[images][0]='+image;
+			// link = 'https://www.facebook.com/sharer.php?s=100&p[title]='+title+'&p[summary]='+text+'&p[url]='+url+'&p[images][0]='+image;
+			link = 'https://www.facebook.com/sharer.php?s=100&p[title]='+title+'&p[images][0]='+image+'&p[summary]='+text+'&p[url]='+url;
 		}else
 		if(app == 'Twitter'){
                   link = 'https://twitter.com/intent/tweet?url='+url+'&text='+text;
