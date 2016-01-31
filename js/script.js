@@ -114,6 +114,7 @@ var home = (function(){
 		var link = null;
 		if(app == 'Facebook'){
 			// link = 'https://www.facebook.com/sharer.php?s=100&p[title]='+title+'&p[summary]='+text+'&p[url]='+url+'&p[images][0]='+image;
+			// link = 'https://www.facebook.com/sharer.php?s=100&p[title]='+title+'&p[images][0]='+image+'&p[summary]='+text+'&p[url]='+url;
 			link = 'https://www.facebook.com/sharer.php?s=100&p[title]='+title+'&p[images][0]='+image+'&p[summary]='+text+'&p[url]='+url;
 		}else
 		if(app == 'Twitter'){
