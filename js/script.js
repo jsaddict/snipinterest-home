@@ -46,7 +46,7 @@ var home = (function(){
 	}
 	function positionSocialButtons(){
 		if($('#social-share-buttons').css('position') == 'fixed'){
-			console.log('fixed social button');
+			// console.log('fixed social button');
 			var top = 0;
 			var ht = parseInt($(window).height()/2, 10);
 			var socialHt = parseInt($('#social-share-buttons').height()/2, 10);
@@ -94,7 +94,7 @@ var home = (function(){
 
 		top = 75;
 		$(id).css('top', top);
-		console.log('setPopupPosition // ', ww, wh);
+		// console.log('setPopupPosition // ', ww, wh);
 	}
 	function checkAndAdd2Chrome(){
 		if(alreadyInstalled){
@@ -169,7 +169,7 @@ var home = (function(){
 			});
 		}
 		$('#menu-button').on('click', function(){
-			console.log('  > ',$('#header-menu').css('display'))
+			// console.log('  > ',$('#header-menu').css('display'))
 			if($('#header-menu').css('display') == 'none'){
 				$('#header-menu').css('display', 'block');
 			}else{
@@ -231,10 +231,10 @@ var home = (function(){
 		var w480 = $('#width480').css('display');
 		if(w480 == 'block'){
 			$('#header-menu').css('display', 'none');
-			console.log('menu is Displaying');
+			// console.log('menu is Displaying');
 		}else{
 			$('#header-menu').css('display', 'block');
-			console.log('menu is not Displaying');
+			// console.log('menu is not Displaying');
 		}
 		// handle header menu - end
 		positionSocialButtons();
