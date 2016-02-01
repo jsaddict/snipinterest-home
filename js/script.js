@@ -205,7 +205,7 @@ var home = (function(){
 			$('#hiring-popup').css('display', 'block');
 		});
 		$('#menu-contribute').on('click', function(){
-			window.open('https://angel.co');
+			window.open('https://angel.co/snipinterest');
 			// $('#popup-box').css('display', 'block');
 			// setPopupPosition('contribute-popup');
 			// $('#contribute-popup').css('display', 'block');
